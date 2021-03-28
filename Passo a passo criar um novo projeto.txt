@@ -1,0 +1,37 @@
+PS C:\> cd C:\Users\lrber\Documents
+PS C:\Users\lrber\Documents> mkdir AulaJSReactRocketSeat   ------> cria a pasta do projeto
+
+
+    Diretório: C:\Users\lrber\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       14/01/2020     07:40                AulaJSReactRocketSeat
+
+
+PS C:\Users\lrber\Documents> cd AulaJsReactRocketSeat    ------> define o caminho da pasta do projeto 
+PS C:\Users\lrber\Documents\AulaJsReactRocketSeat> mkdir backend  ----------> cria a pasta backend
+
+
+    Diretório: C:\Users\lrber\Documents\AulaJsReactRocketSeat
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       14/01/2020     07:41                backend
+
+
+PS C:\Users\lrber\Documents\AulaJsReactRocketSeat> cd backend
+PS C:\Users\lrber\Documents\AulaJsReactRocketSeat\backend> yarn init -y  ----> cria o pacote json na pasta backend
+yarn init v1.21.1
+warning The yes flag has been set. This will automatically answer yes to all questions, which may have security implications.
+success Saved package.json
+Done in 0.17s.
+PS C:\Users\lrber\Documents\AulaJsReactRocketSeat\backend> code .  ----> abre o codigo no CODE VS
+---> para abrir o terminal no VS Code usar o CTRL+''
+PS C:\Users\lrber\Documents\AulaJsReactRocketSeat\backend> yarn add express  ------> adiciona uma nova dependencia ao projetoPS C:\Users\lrber\Documents\AulaJsReactRocketSeat\backend> node index.js   -----> roda o site, para parar usar o CTRL+C
+
+
+PEGAR A HORA EM JSX:
+(new Date()).toLocaleTimeString()
